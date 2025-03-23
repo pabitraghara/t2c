@@ -1,0 +1,112 @@
+.WhyChoose-container {
+  background-color: #000;
+  padding: 20px;
+  /* position: relative; */
+  margin-top: -10px;
+  z-index: -100;
+}
+.WhyChoose {
+  text-align: center;
+}
+.WhyChoose h1 {
+  font-size: 50px;
+  font-weight: bold;
+  background: linear-gradient(#909dc1, #3663de);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.WhyChoose p {
+  color: #909dc1;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+.wc-b1 {
+  background-image: url(../assets/wc-b1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+  height: 420px;
+  border-radius: 10px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.content-box {
+  display: flex;
+  gap: 7px;
+}
+.content-box i {
+  color: white;
+}
+.wc-b1 h4 {
+  color: #fafafa;
+}
+.wc-b1 p {
+  color: #a7b2cf;
+}
+.wc-b1 img {
+  width: 250px;
+}
+.WhyChoose-content {
+  display: flex;
+  max-width: 1300px;
+  margin: auto;
+  gap: 20px;
+  overflow: auto;
+}
+@media screen and (max-width: 600px) {
+  .WhyChoose-container {
+    background-color: #000;
+    padding: 20px;
+  }
+  .WhyChoose {
+    text-align: center;
+  }
+  .WhyChoose h1 {
+    font-size: 50px;
+    font-weight: bold;
+    background: linear-gradient(#909dc1, #3663de);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .WhyChoose p {
+    color: #909dc1;
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+  .wc-b1 {
+    background-image: url(../assets/wc-b1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 420px;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .content-box {
+    display: flex;
+    gap: 7px;
+  }
+  .content-box i {
+    color: white;
+  }
+  .wc-b1 h4 {
+    color: #fafafa;
+  }
+  .wc-b1 p {
+    color: #a7b2cf;
+  }
+  .wc-b1 img {
+    width: 250px;
+  }
+  .WhyChoose-content {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 20px;
+  }
+}

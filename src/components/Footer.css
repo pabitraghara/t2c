@@ -1,0 +1,131 @@
+.footer-container {
+  /* background-color: rgba(7, 7, 81, 0.753); */
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-image: url(../assets/bg.png);
+  background-position: center;
+  background-size: cover;
+}
+.footer {
+  max-width: 1080px;
+  margin: auto;
+  margin-top: 20px;
+}
+.footer-para {
+  color: #909dc1;
+  width: 250px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.icon {
+  color: #909dc1;
+  display: flex;
+  gap: 25px;
+}
+.footer-left-right {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.footer-right {
+  color: #909dc1;
+  display: flex;
+  gap: 100px;
+}
+.footer-right-content h4 {
+  color: white;
+  margin-bottom: 15px;
+}
+.footer-link {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer-link li {
+  list-style: none;
+}
+.footer-cpoyright {
+  color: #909dc1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.footer-cpoyright-flex {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.div {
+  height: 0.1px;
+  background-color: #262627;
+}
+@media screen and (max-width: 600px) {
+  .footer {
+    max-width: 1080px;
+    width: 80%;
+  }
+  .footer-left-right {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .footer-right {
+    gap: 50px;
+  }
+
+  .footer-link {
+    flex-direction: column;
+  }
+  .footer-link li {
+    list-style: none;
+  }
+  .footer-cpoyright {
+    color: #909dc1;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: start;
+    margin-top: 20px;
+  }
+  .footer-cpoyright-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+    margin-top: 10px;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 1300px) {
+  .footer {
+    max-width: 1080px;
+    width: 80%;
+  }
+  .footer-left-right {
+    flex-direction: row;
+    gap: 50px;
+  }
+  .footer-right {
+    gap: 50px;
+  }
+
+  .footer-link {
+    flex-direction: column;
+  }
+  .footer-link li {
+    list-style: none;
+  }
+  .footer-cpoyright {
+    color: #909dc1;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .footer-cpoyright-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+}

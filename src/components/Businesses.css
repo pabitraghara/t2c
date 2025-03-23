@@ -1,0 +1,254 @@
+.Businesses-container {
+  background-color: #000;
+  padding: 20px;
+  margin-top: -10px;
+  position: relative;
+  overflow: hidden;
+}
+.Businesses {
+  text-align: center;
+}
+.Businesses h1 {
+  font-size: 50px;
+  font-weight: bold;
+  background: linear-gradient(#909dc1, #3663de);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.Businesses p {
+  color: #909dc1;
+  margin-top: 10px;
+  font-size: 18px;
+}
+.Businesses-content-left {
+  max-width: 40%;
+  /* border: 1px solid gray; */
+  border-radius: 10px;
+}
+.Businesses-content-left img {
+  width: 100%;
+}
+.buss-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 30px;
+  gap: 15px;
+  background-color: #171717;
+  margin-top: -10px;
+  border-radius: 0px 0px 10px 10px;
+}
+.bus-desc h2 {
+  color: #fafafa;
+}
+strong {
+  font-size: 16px;
+}
+.bus-desc {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.bus-desc p {
+  font-size: 14px;
+  color: #909dc1;
+  width: 330px;
+}
+.line {
+  width: 1px;
+  height: 50px;
+  background-color: #909dc1;
+}
+.buss-info button {
+  padding: 10px 15px;
+  color: #fafafa;
+  background-color: #3663de;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+cursor: pointer;
+}
+.Businesses-boxes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 70px;
+  position: relative;
+  z-index: 100;
+
+}
+
+.img1{
+  position: absolute;
+  left: 0;
+  top: 20%;
+  opacity: 0.7;
+}
+.img2{
+  position: absolute;
+  right: 0;
+  top: 20%;
+  opacity: 0.7;
+
+}
+
+.Businesses-content-right {
+  max-width: 50%;
+  border: 1px solid #171717;
+  border-radius: 10px;
+}
+.Businesses-content-right img {
+  width: 100%;
+}
+.content-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 30px;
+  background-color: #171717;
+  margin-top: -10px;
+  position: relative;
+  border-radius: 0px 0px 10px 10px;
+}
+.content-right h2 {
+  color: #fafafa;
+}
+strong {
+  font-size: 16px;
+}
+.content-right p {
+  font-size: 14px;
+  color: #909dc1;
+  width: 430px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+.content-right button {
+  padding: 10px 15px;
+  color: #fafafa;
+  background-color: #3663de;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .Businesses h1 {
+    font-size: 30px;
+  }
+  .Businesses p {
+    font-size: 16px;
+  }
+  .Businesses-content-left {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  .Businesses-content-left img {
+    width: 100%;
+  }
+  .buss-info {
+    flex-direction: column;
+  }
+
+  strong {
+    font-size: 16px;
+  }
+  .bus-desc {
+    flex-direction: column;
+    text-align: center;
+  }
+  .bus-desc p {
+    text-align: center;
+    font-size: 14px;
+    width: 100%;
+  }
+  .line {
+    display: none;
+  }
+  .Businesses-boxes {
+    flex-direction: column;
+  }
+  .Businesses-content-right {
+    max-width: 100%;
+    border: 1px solid #171717;
+    border-radius: 10px;
+  }
+  .Businesses-content-right img {
+    width: 100%;
+  }
+  .content-right {
+    flex-direction: column;
+  }
+  .content-right p {
+    width: 100%;
+    text-align: center;
+  }
+  .content-right button {
+    margin-top: 10px;
+  }
+  .content-right h2{
+    text-align: center;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 1300px) {
+  .Businesses h1 {
+    font-size: 50px;
+  }
+  .Businesses p {
+    font-size: 19px;
+  }
+  .Businesses-content-left {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  .Businesses-content-left img {
+    width: 100%;
+  }
+  .buss-info {
+    flex-direction: column;
+  }
+
+  strong {
+    font-size: 19px;
+  }
+  .bus-desc {
+    flex-direction: column;
+    text-align: center;
+  }
+  .bus-desc p {
+    text-align: center;
+    font-size: 14px;
+    width: 100%;
+  }
+  .line {
+    display: none;
+  }
+  .Businesses-boxes {
+    flex-direction: column;
+  }
+  .Businesses-content-right {
+    max-width: 100%;
+    border: 1px solid #171717;
+    border-radius: 10px;
+  }
+  .Businesses-content-right img {
+    width: 100%;
+  }
+  .content-right {
+    flex-direction: column;
+  }
+  .content-right h2{
+    text-align: center;
+  }
+  .content-right p {
+    width: 100%;
+    text-align: center;
+  }
+  .content-right button {
+    margin-top: 10px;
+  }
+}
