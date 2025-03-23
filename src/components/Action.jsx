@@ -1,7 +1,7 @@
 import React from 'react'
 import './Action.css'
-import action1 from '../assets/Action1.png'
-import action2 from '../assets/Action2.png'
+import action1 from '../assets/ACTION1.png'
+import action2 from '../assets/ACTION2.png'
 import Turbocharged from './Turbocharged'
 const Action = () => {
     return (
